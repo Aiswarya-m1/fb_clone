@@ -1,0 +1,16 @@
+.sidebar{
+  animation-name: animateIn;
+    animation-duration :350ms;
+    animation-timing-function :ease;
+    animation-delay: 1s;
+    animation-fill-mode:both;
+    flex:0.33 ;
+  width: 15%;
+    position: fixed;
+    z-index: 1;
+}@media only screen and (max-width: 1019px) {
+  .sidebar{
+    
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.sidebar_row{
+    display: flex;
+    align-items: center;
+ 
+   padding: 10px;
+   cursor: pointer; animation-name: animateIn;
+   animation-duration :350ms;
+   animation-timing-function :ease;
+   animation-delay: 1s;
+   animation-fill-mode:both;
+}
+.sidebar_row:hover{
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.sidebar_row > h4{
+  margin-left: 20px;
+  font-weight: 600;
+}
+.sidebar_row > .MuiSvgIcon-root{
+    color: blue;
+    font-size: xx-large;
+    }

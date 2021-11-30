@@ -1,0 +1,17 @@
+.btn2{
+    color:white;
+    background-color:blue;
+    width:100px;
+    border-radius:8px ; 
+    margin: 10px;
+}
+#im{
+    border: 3px solid white;
+   width: 60px;
+   height: 60px;
+}
+.contr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

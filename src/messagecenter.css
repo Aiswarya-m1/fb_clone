@@ -1,0 +1,70 @@
+.message_center{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    
+
+    
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75) ;
+}
+.message_center_top{
+    display: flex;
+  
+    padding: 15px;
+    border-bottom: 1px solid #eff2f5;
+}
+.message_center >form{
+display: flex;
+flex: 1;
+}
+.message_center_top >form > input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0px 10px ;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    width: 250px;
+    }
+    .message_center_top >form > button{
+display: none;
+    }
+    @media(max-width:1200px){
+        .message_center_top >form > button{
+            display: visible;
+                }   
+    }
+    .message_center_input{
+        flex:1;
+    }
+    .message_center_bottom{
+display: flex;
+justify-content: space-evenly;
+    }
+    .message_center_options{
+padding: 20px;
+display: flex;
+align-items: center;
+color: gray;
+margin: 5px;
+    }
+    .message_center_options >h3{
+margin-left: 10px;
+font-size: medium;
+cursor: pointer;
+    }
+    .message_center_options :hover{
+        border-radius: 20px;
+        background-color: #eff2f5;
+
+    } 
+   
+    .message_center_options >input[type="file"]{
+        display: none;
+       width: 40px;
+     
+       position: relative;
+       left:20;
+            }

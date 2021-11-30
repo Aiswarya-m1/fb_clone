@@ -1,0 +1,39 @@
+.side_content{
+    padding: 30px;
+    width: max-content;
+    border-right:lightgray ;
+    
+}
+.options{
+    display: flex;
+}
+.options:hover{
+    background-color: lightgray;}
+   
+  .header_option--active{
+      border-radius: 12px;
+      background-color:lightgray ;
+      border-bottom: none;
+  }
+  body{
+      background-color: wheat;
+  }
+  .options >h4{
+      margin-left: 10px;
+  }
+  .main{
+      display: flex;
+  }
+  .header_input{
+    display: flex;
+    align-items: center;
+   background-color: #eff2f5 ;
+   padding: 10px;
+   border-radius: 999px;
+   margin-left: 10px;
+}
+.header_input > input{
+   border: none;
+   background-color: transparent;
+   outline-width: 0;
+}

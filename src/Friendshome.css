@@ -1,0 +1,26 @@
+.side_content{
+    padding: 30px;
+    width: max-content;
+    border-right:lightgray ;
+    
+}
+.options{
+    display: flex;
+}
+.options:hover{
+    background-color: lightgray;}
+   
+  .header_option--active{
+      border-radius: 12px;
+      background-color:lightgray ;
+      border-bottom: none;
+  }
+  body{
+      background-color: wheat;
+  }
+  .options >h4{
+      margin-left: 10px;
+  }
+  .main{
+      display: flex;
+  }

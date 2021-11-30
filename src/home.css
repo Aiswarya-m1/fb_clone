@@ -1,0 +1,42 @@
+.home{
+    background-color: #f1f2f5;
+}
+.home_body{
+    display: flex;
+   
+  
+}
+.bottomvar{
+    bottom: 0;
+    position: fixed;
+    background-color: brown;
+    width: 100%;
+}
+
+
+
+.bottomvar > .MuiSvgIcon-root{
+    color: crimson;
+}
+.middle{
+    display: flex;
+}
+
+.right_content{
+    position: fixed;
+    top: 80px;
+
+    right: 0;
+  
+    /* width: 100px;
+    height: 100px; */
+    border: none;
+}
+*{
+    margin: 0;
+}
+
+.bottom{
+    float: right;
+    
+}

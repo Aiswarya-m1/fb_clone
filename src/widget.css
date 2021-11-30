@@ -1,0 +1,15 @@
+.widgets_content{
+    display: flex;
+    flex-direction: column;
+
+}
+.widgets{
+    position: sticky;
+    top:160;
+    right: 0;
+}
+@media only screen and (max-width: 1019px) {
+    .widgets {
+      display: none;
+    }
+  }

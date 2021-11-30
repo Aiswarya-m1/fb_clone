@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+}
+body{
+    background-color: rgba(243, 236, 226, 0.774);
+}
+/* button{
+    width: fill;
+}
+form{
+    background-color: white;
+    margin-top: 140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 630px;
+}
+.a{
+    text-decoration:none;
+}
+.g{
+    margin-top: 140px;
+}
+h4{
+    margin-left: 100px;
+}
+.link{
+    color: black;
+    text-decoration:none;
+    margin-top: 30px;
+}
+.link1{
+ 
+    text-decoration:none;
+}
+.frm{
+text-align: center;
+}
+.in{
+    width: 140px;
+} */
+.left_contentt >img{
+    width: 450px;
+    height: 100px;
+}
+.left_contentt {
+  float: left;
+   margin-top: 140px;
+}
+.right_contentt{
+    right: 0;position: absolute;
+    float: right;
+    text-align: center;
+    margin-top: 140px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75) ;
+}
+.right_contentt_top {
+    border-bottom: 1px solid rgb(209, 203, 203);
+ }
+ .right_contentt_top >a{
+     text-decoration: none;
+     color: blue;margin: 10px;
+ }
+ .right_contentt_top >form >button{
+background-color: blue; font-weight: bold;
+color: white;
+width: 350px;
+font-size: medium; border-radius: 8px;
+height: 50px;
+margin: 10px;
+ }
+ .right_contentt_top >form >input{
+     height: 40px;
+     width: 420px;
+     margin: 10px;
+     border:1px solid rgb(209, 203, 203); 
+     border-radius: 4px;
+ }
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   text-align: center;
+   font-size: medium;
+  }
+  .right_contentt_bottom >button{
+    background-color: green;
+    color: white;
+    width: 350px;
+    font-size: medium; border-radius: 8px;
+    font-weight: bold;
+    height: 50px;
+    margin: 20px;
+  }
+  .ptag{
+      text-align: center;
+  }
+  .success {
+    color: blue;
+  }
+  .main{
+    background-color: rgba(243, 236, 226, 0.774);
+  }
+.error {
+    color: red;
+  }
+  /* Soniya P S7:09 PM
+  render() {
+    return (
+      <Switch>
+        <Route exact path="/">
+          <Redirect to="/app" />
+          {/* {this.props.loginData.logged ? (
+            <Dashboard   {...this.props}/>
+          ) : (
+            <Redirect to="/home" />
+          /* )} */
+        /* </Route>
+        <Route path="/login" component={Login} />
+        <Route path="/app" component={Home} />
+        <Route path="/create-account" component={CreateAccount} />
+        <Route path="/master-login" component={MasterPa */ 
+          @media only screen and (max-width: 949px) {
+            .main{
+              display: block;
+              
+            }
+            .left_contentt >img{
+              width: 250px;
+              height: 50px;
+          }
+          .left_contentt {
+           
+             margin-top: 20px;
+          }
+          .right_contentt{
+            right: 0;
+           
+            text-align: center;
+          
+          background-color: white;
+          border-radius: 8px;
+          box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75) ;
+        }
+        
+.right_contentt_top {
+  text-align: center;
+}
+.right_contentt_bottom {
+  text-align: center;
+}
+          }

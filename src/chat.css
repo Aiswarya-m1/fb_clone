@@ -1,0 +1,18 @@
+.chat{
+    display: block;
+    background-color: white;width: 500px;
+    height: 500px;z-index: 1;position: absolute;
+}
+.top1{
+    display: inline;
+}
+.top1  >h4> .MuiSvgIcon-root{
+padding-left: 30px;
+}
+Link{
+    text-decoration: none;
+}
+.in{
+border: none;
+background-color: transparent;
+outline-width: 0;}
